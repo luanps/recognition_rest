@@ -7,7 +7,7 @@ verify_ssl = true
 
 [packages]
 numpy = "*"
-flask = "*"
+Flask = "*"
 
 [requires]
 python_version = "3.6"
