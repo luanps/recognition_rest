@@ -7,9 +7,8 @@ verify_ssl = true
 
 [packages]
 numpy = "*"
-flask = "*"
-opencv-python = "*"
-dlib = "*"
+Flask = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.6"
