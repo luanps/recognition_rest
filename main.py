@@ -8,6 +8,7 @@ def main(data: dict):
     """
     rec = Recognition(data)
     rec.convert_base64_to_img()
+    return "ok"
 
 
 if __name__ == "__main__":
