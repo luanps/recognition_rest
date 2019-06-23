@@ -1,14 +1,15 @@
+from recognition import Recognition
+
 def main(data: dict):
     """main
 
     :param data:
     :type data: dict
     """
-
-    input_data = json.dumps(data)
-    run_recognition(input_data)
+    rec = Recognition(data)
+    rec.convert_base64_to_img()
 
 
 if __name__ == "__main__":
-    main()
+    main(data)
 
