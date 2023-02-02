@@ -5,4 +5,4 @@ itsdangerous==1.1.0
 jinja2==2.10.1
 markupsafe==1.1.1
 numpy==1.16.4
-werkzeug==0.15.4
+werkzeug==0.15.5
